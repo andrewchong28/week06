@@ -77,10 +77,7 @@ public class Application {
         	System.out.println("Final score: **" + player2.getName() +": "+  player2.getScore() + ", " + player1.getName()  +": "+ player1.getScore()+ "**"  );
         }
  
- 
-
-			 
-
 	}
 
 }
+
