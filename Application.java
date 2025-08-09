@@ -48,17 +48,19 @@ public class Application {
         	 
         	if(player1CardFlip.getValue() > player2CardFlip.getValue()) {
         		player1.incrementScore();
-        		System.out.println("Bob card value = " + player1CardFlip.getValue());
-        		System.out.println("Sally card value = " + player2CardFlip.getValue());
+        		//System.out.println("Bob card value = " + player1CardFlip.getValue());
+        		//System.out.println("Sally card value = " + player2CardFlip.getValue());
         		System.out.println("-----------------"+"Round "+ (i + 1) + ": "+ player1.getName() +" wins!"+ " **" + player1.getName() +": "+  player1.getScore() + ", " + player2.getName()  +": "+ player2.getScore()+ "**" );
   
         	} else if(player2CardFlip.getValue() > player1CardFlip.getValue()) {
         		player2.incrementScore();
-        		System.out.println("Sally card value = " + player2CardFlip.getValue());
-        		System.out.println("Bob card value = " + player1CardFlip.getValue());
+        		//System.out.println("Sally card value = " + player2CardFlip.getValue());
+        		//System.out.println("Bob card value = " + player1CardFlip.getValue());
         		System.out.println("-----------------"+"Round "+ (i + 1) + ": " +  player2.getName() +" wins!" + " **" + player2.getName() +": "+  player2.getScore() + ", " + player1.getName()  +": "+ player1.getScore()+ "**" );
         		//System.out.println(player2.getName() + " wins: " + player2CardFlip.getName() +" > "+ player1CardFlip.getName());
         	} else {
+        		//System.out.println("Bob card value = " + player1CardFlip.getValue());
+        		//System.out.println("Sally card value = " + player2CardFlip.getValue());
         		System.out.println("-----------------"+"Round "+ (i + 1) + ": " +  "Tie no points awarded");
         	}
         	 
@@ -77,7 +79,8 @@ public class Application {
         	System.out.println("Final score: **" + player2.getName() +": "+  player2.getScore() + ", " + player1.getName()  +": "+ player1.getScore()+ "**"  );
         }
  
+			 
+
 	}
 
 }
-
