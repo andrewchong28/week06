@@ -3,8 +3,6 @@ package week06FinalCodingProject;
 import java.util.ArrayList;
 import java.util.List;
 
-import week5.Card;
-
 public class Player {
 	List<Card> hand = new ArrayList<Card>();  
 	int score;
@@ -73,4 +71,5 @@ public class Player {
 		}
 	}
 	
+
 }
